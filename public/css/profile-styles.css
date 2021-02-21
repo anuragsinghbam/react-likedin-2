@@ -1,0 +1,172 @@
+.profile-container {
+  display: flex;
+  justify-content: center;
+margin-top: 10vh !important;
+  width: 90%;
+  max-width: 1080px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  padding-top: 45px;
+}
+
+.profile-display {
+  width: 100%;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 2em;
+}
+
+.user_details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.user_details h1 {
+  margin: 0;
+}
+
+.user_details h3 {
+  color: rgb(73, 73, 73);
+}
+
+.user_details h5 {
+  color: rgb(150, 150, 150);
+  margin-bottom: 0;
+}
+
+.hamburger {
+  width: 30px;
+  margin-left: 35px;
+}
+
+.web-developer {
+  margin: 10px 0 0;
+}
+
+.stats {
+  width: 12em;
+  margin: 1.5em 0;
+  display: flex;
+}
+
+.stats img {
+  height: 2.5em;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  width: 5em;
+  height: 50px;
+}
+
+.user-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.user-img button {
+  background: #fff;
+  outline: none;
+  border-color: #376be6;
+  border-radius: 7px;
+  padding: 0.5em 1em;
+  margin-top: 1em;
+  color: #333;
+}
+
+.dp {
+  width: 10em;
+  border-radius: 100%;
+  overflow: hidden;
+  border: 4px solid #376be6;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.dp:before {
+  background: none;
+  border: 4px solid #fff;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  pointer-events: none;
+  border-radius: 100%;
+
+}
+
+.dp img {
+  width: 100%;
+}
+
+.profile-input {
+  margin-top: 25px;
+  width: 100%;
+  background-color: #fdfdfd;
+  border-bottom: 2px solid rgb(226, 226, 226);
+}
+
+.input-field {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px 2em;
+  border-top: 2px solid rgb(226, 224, 224);
+  
+}
+
+.input-field-icon {
+  width: 2.5em;
+}
+
+.input-field-icon-right {
+  width: 2em;
+}
+
+.main-details {
+  display: flex;
+  align-items: flex-start;
+}
+
+.input-text {
+  margin-left: 20px;
+}
+
+.input-text h6 {
+  font-weight: 400;
+  color: rgb(150, 150, 150);
+}
+
+
+@media (max-width: 450px) {
+  .profile-display {
+    font-size: 0.8rem;
+  }
+  .user_details h1{
+    font-size: 2rem;
+  }
+  .user_details h3{
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 768px) {
+
+}
+
+/* My Profile Branch  */
