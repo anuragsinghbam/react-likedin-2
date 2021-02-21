@@ -69,6 +69,11 @@ history.push('/')
                     <a className="nav-link" >Contact</a></Link>
                   </li>
 
+                  <li className="nav-item">
+                  <Link to="/dashboard">
+                    <a className="nav-link" >Dashboard</a></Link>
+                  </li>
+
 
 
                {isAuth &&   <li className="nav-item">

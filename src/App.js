@@ -9,6 +9,7 @@ import Profile from "./components/Profile/Profile";
 import CampaignScreen from "./components/Campaign/CampaignScreen";
 import {reactLocalStorage} from 'reactjs-localstorage';
 import NotFound from './components/NotFound';
+import Dashboard from './components/Dashboard/Dashboard';
 
 
 function App() {
@@ -44,6 +45,7 @@ console.log('User Data is ',data)
          <Route exact path="/signup" component={Signup}/>
          <Route exact path="/login" component={Login}/>
          <Route exact path="/contact" component={Contact}/>
+         <Route exact path="/dashboard" component={Dashboard}/>
 
 
          { isAuth && <div>
